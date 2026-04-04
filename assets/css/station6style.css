@@ -3,3 +3,14 @@ img {
     width: 70%;
 
 }
+
+h1{
+    text-align: center;
+}
+#antwort{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+}

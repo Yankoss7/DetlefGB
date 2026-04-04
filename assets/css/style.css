@@ -1,5 +1,26 @@
 img {
     height: auto;
     width: 70%;
+    text-align: center;
 
+}
+
+section {
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+body{
+    font-size: 21px;
 }
