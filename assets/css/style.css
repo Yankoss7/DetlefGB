@@ -15,17 +15,37 @@ button:hover {
 }
 
 body{
-    font-size: 21px;
+    font-size: 15px;
 }
 button{
-    padding: 7px;
+    padding: 5px;
     margin-top: 10px;
-    
+    border-radius: 5px;
+    background-color: rgb(248, 245, 230);
 }
 
 #nextBtn{
-    background-color: rgb(177, 202, 224);
+  margin-top: 20px;
 }
 *{
     font-family: 'Poppins', Arial, sans-serif;
+}
+html{
+    background-color:#f7e7df;
+}
+h3{
+    margin: 10px;
+    margin-left: 5px;
+}
+
+fieldset{
+    border: 3px solid;
+}
+#container{
+    /*  display: flex;
+    flex-direction: column;
+  align-items: center;*/
+}
+#richtigbtn{
+    margin-left: 0px;
 }

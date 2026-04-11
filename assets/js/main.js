@@ -13,7 +13,7 @@ const quiz = [
     antworten: [
       { text: "Letztter Surfer auf dem Hengsteysee", value: "surfen" },
       { text: "Handballbezirksliga Torschützenkönig", value: "handball" },
-      { text: "", value: "katze" }
+      { text: "Schwimmt nackt im Kanal", value: "katze" }
     ],
     korrekt: "surfen"
   },
