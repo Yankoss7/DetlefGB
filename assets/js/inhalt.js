@@ -103,10 +103,10 @@ document.getElementById("richtigbtn").addEventListener("click", () => {
     }
 
   } else if (istFastRichtig) {
-    feedback.textContent = "Fast richtig 😏";
+    feedback.textContent = "Fast richtig ";
 
   } else {
-    feedback.textContent = "Leider falsch 😅";
+    feedback.textContent = "Leider falsch ";
   }
 });
 
