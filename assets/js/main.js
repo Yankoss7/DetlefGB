@@ -46,5 +46,35 @@ const quiz = [
       { text: "Pepe", value: "pepe" }
     ],
     korrekt: "blacky"
+  },
+  {
+    frage: "Wo in Dortmund ist Detlef aufgewachsen?",
+    typ: "radio",
+    antworten: [
+      { text: "Wellinghofen", value: "wellinghofen" },
+      { text: "Oespel", value: "oespel" },
+      { text: "Körne", value: "koerne" }
+    ],
+    korrekt: "wellinghofen"
+  },
+  {
+    frage: "In welchem Jahr ging Detlef in Rente?",
+    typ: "radio",
+    antworten: [
+      { text: "2023", value: "2023" },
+      { text: "2022", value: "2022" },
+      { text: "2021", value: "2021" }
+    ],
+    korrekt: "2021"
+  },
+  {
+    frage: "Wie heißen seine drei Enkelkinder?",
+    typ: "radio",
+    antworten: [
+      { text: "Ava, Matteo und Milla", value: "ava" },
+      { text: "Hedda, Karlo und Frieder", value: "hedda" },
+      { text: "Alva, Mats und Mila", value: "pauline" }
+    ],
+    korrekt: "ava"
   }
 ];
