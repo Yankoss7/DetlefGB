@@ -11,7 +11,7 @@ const quiz = [
     frage: "Warum war Detlef 1990 in der Zeitung?",
     typ: "radio",
     antworten: [
-      { text: "Letztter Surfer auf dem Hengsteysee", value: "surfen" },
+      { text: "Letzter Surfer auf dem Hengsteysee", value: "surfen" },
       { text: "Handballbezirksliga Torschützenkönig", value: "handball" },
       { text: "Schwimmt nackt im Kanal", value: "katze" }
     ],
