@@ -10,6 +10,7 @@ function ladeFrage() {
 
   if (q.typ === "input") {
     const input = document.createElement("input");
+    input.type = "text"; 
     input.id = "userInput";
     antwortenDiv.appendChild(input);
   }
