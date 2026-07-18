@@ -4,38 +4,42 @@ const quiz = [
     typ: "input",
     korrekt: "3",
     bilder: [
-      "assets/img/hi.jpeg"
+      "assets/img/geschwister.jpg",
     ]
   },
   {
-    frage: "Warum war Detlef 1990 in der Zeitung?",
+    frage: "Warum war Detlef 1985 in der Zeitung?",
     typ: "radio",
     antworten: [
       { text: "Letzter Surfer auf dem Hengsteysee", value: "surfen" },
       { text: "Handballbezirksliga Torschützenkönig", value: "handball" },
       { text: "Schwimmt nackt im Kanal", value: "katze" }
     ],
-    korrekt: "surfen"
+    korrekt: "surfen",
+     bilder: [
+      "assets/img/surfen.jpg",
+      "assets/img/surf.jpg"
+    ]
   },
   {
-    frage: "Wie haben sich Mama und Papa kennengelernt?",
+    frage: "Wie haben sich Antje und Detlef kennengelernt?",
     typ: "radio",
     antworten: [
-      { text: "Handballverein", value: "handball" },
-      { text: "Klassenfahrt", value: "klassenfahrt" },
-      { text: "Studium", value: "studium" }
+      { text: "Handballvereinsfahrt ins Sauerland", value: "handball" },
+      { text: "Auf einer Klassenfahrt nach Lichtendorf", value: "klassenfahrt" },
+      { text: "Während des Studium in der Bibliothek", value: "studium" }
     ],
     korrekt: "klassenfahrt"
   },
   {
-    frage: "Welche Jobs hatte Detlef während des Studiums?(mehrere Antworten richtig)",
-    typ: "checkbox",
+    frage: "Welchen Job hatte Detlef während des Studiums?",
+    typ: "radio",
     antworten: [
+      { text: "Kellner", value: "fahrrad" },
       { text: "Taxi fahren", value: "taxi" },
-      { text: "Fahrrad support", value: "fahrrad" },
-      { text: "Tiefbauarbeiter", value: "tief" }
+      { text: "Zeitungszusteller", value: "tief" }
     ],
-    korrekt: ["fahrrad", "taxi", "tief"]
+    korrekt: ["taxi"]
   },
   {
     frage: "Wie hieß der Familienhund?",
@@ -54,6 +58,16 @@ const quiz = [
       { text: "Wellinghofen", value: "wellinghofen" },
       { text: "Oespel", value: "oespel" },
       { text: "Körne", value: "koerne" }
+    ],
+    korrekt: "wellinghofen"
+  },
+  {
+    frage: "Wann haben sich Antje und Detlef kennengelernt?",
+    typ: "radio",
+    antworten: [
+      { text: "1985", value: "wellinghofen" },
+      { text: "1991", value: "oespel" },
+      { text: "1979", value: "koerne" }
     ],
     korrekt: "wellinghofen"
   },
