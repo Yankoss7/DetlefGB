@@ -187,4 +187,8 @@ button:active {
 h1,h2,h3, h4{
   text-align: center;
 }
+
+input[type="text"] {
+  font-size: 16px;
+}
 }
