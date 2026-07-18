@@ -75,6 +75,9 @@ const quiz = [
       { text: "Hedda, Karlo und Frieder", value: "hedda" },
       { text: "Alva, Mats und Mila", value: "pauline" }
     ],
-    korrekt: "ava"
+    korrekt: "ava" ,
+     bilder: [
+      "assets/img/kids.JPG"
+    ]
   }
 ];
