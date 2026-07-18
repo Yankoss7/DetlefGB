@@ -97,8 +97,6 @@ document.getElementById("richtigbtn").addEventListener("click", () => {
       q.bilder.forEach((src) => {
         const img = document.createElement("img");
         img.src = src;
-        img.style.width = "120px";
-        img.style.margin = "10px";
         feedback.appendChild(img);
       });
     }
