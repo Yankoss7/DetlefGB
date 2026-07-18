@@ -1,6 +1,6 @@
 const quiz = [
   {
-    frage: "Wieviele Geschwister hat Detlef?",
+    frage: "Wie viele Geschwister hat Detlef?",
     typ: "input",
     korrekt: "3",
     bilder: [
@@ -8,15 +8,15 @@ const quiz = [
     ]
   },
   {
-    frage: "Warum war Detlef 1985 in der Zeitung?",
+    frage: "Warum schaffte es Detlef 1985 in die Zeitung?",
     typ: "radio",
     antworten: [
-      { text: "Letzter Surfer auf dem Hengsteysee", value: "surfen" },
-      { text: "Handballbezirksliga Torschützenkönig", value: "handball" },
-      { text: "Schwimmt nackt im Kanal", value: "katze" }
+      { text: "Als letzter Surfer auf dem Hengsteysee", value: "surfen" },
+      { text: "Als Torschützenkönig der Handball-Bezirksliga", value: "handball" },
+      { text: "Weil er nackt im Kanal schwamm", value: "katze" }
     ],
     korrekt: "surfen",
-     bilder: [
+    bilder: [
       "assets/img/surfen.jpg",
       "assets/img/surf.jpg"
     ]
@@ -25,24 +25,24 @@ const quiz = [
     frage: "Wie haben sich Antje und Detlef kennengelernt?",
     typ: "radio",
     antworten: [
-      { text: "Handballvereinsfahrt ins Sauerland", value: "handball" },
+      { text: "Auf einer Vereinsfahrt des Handballclubs ins Sauerland", value: "handball" },
       { text: "Auf einer Klassenfahrt nach Lichtendorf", value: "klassenfahrt" },
-      { text: "Während des Studium in der Bibliothek", value: "studium" }
+      { text: "In der Bibliothek während des Studiums", value: "studium" }
     ],
     korrekt: "klassenfahrt"
   },
   {
-    frage: "Welchen Job hatte Detlef während des Studiums?",
+    frage: "Welchen Nebenjob hatte Detlef während seines Studiums?",
     typ: "radio",
     antworten: [
       { text: "Kellner", value: "fahrrad" },
-      { text: "Taxi fahren", value: "taxi" },
+      { text: "Taxifahrer", value: "taxi" },
       { text: "Zeitungszusteller", value: "tief" }
     ],
-    korrekt: ["taxi"]
+    korrekt: "taxi"
   },
   {
-    frage: "Wie hieß der Familienhund?",
+    frage: "Wie hieß der Hund der Familie?",
     typ: "radio",
     antworten: [
       { text: "Hasso", value: "hasso" },
@@ -52,7 +52,7 @@ const quiz = [
     korrekt: "blacky"
   },
   {
-    frage: "Wo in Dortmund ist Detlef aufgewachsen?",
+    frage: "In welchem Dortmunder Stadtteil ist Detlef aufgewachsen?",
     typ: "radio",
     antworten: [
       { text: "Wellinghofen", value: "wellinghofen" },
@@ -62,7 +62,7 @@ const quiz = [
     korrekt: "wellinghofen"
   },
   {
-    frage: "Wann haben sich Antje und Detlef kennengelernt?",
+    frage: "In welchem Jahr haben sich Antje und Detlef kennengelernt?",
     typ: "radio",
     antworten: [
       { text: "1985", value: "wellinghofen" },
@@ -72,7 +72,7 @@ const quiz = [
     korrekt: "wellinghofen"
   },
   {
-    frage: "In welchem Jahr ging Detlef in Rente?",
+    frage: "In welchem Jahr ist Detlef in Rente gegangen?",
     typ: "radio",
     antworten: [
       { text: "2023", value: "2023" },
@@ -82,15 +82,15 @@ const quiz = [
     korrekt: "2021"
   },
   {
-    frage: "Wie heißen seine drei Enkelkinder?",
+    frage: "Wie heißen Detlefs drei Enkelkinder?",
     typ: "radio",
     antworten: [
       { text: "Ava, Matteo und Milla", value: "ava" },
       { text: "Hedda, Karlo und Frieder", value: "hedda" },
       { text: "Alva, Mats und Mila", value: "pauline" }
     ],
-    korrekt: "ava" ,
-     bilder: [
+    korrekt: "ava",
+    bilder: [
       "assets/img/kids.JPG"
     ]
   }
