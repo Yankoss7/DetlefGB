@@ -49,3 +49,7 @@ fieldset{
 #richtigbtn{
     margin-left: 0px;
 }
+
+h1,h2,h3,h4{
+    padding-left: 2%;
+}

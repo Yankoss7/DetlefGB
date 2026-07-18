@@ -30,12 +30,11 @@ label {
   box-shadow: 0 3px 10px rgba(0,0,0,0.05);
 }
 
-/* Klick-Effekt */
+
 label:active {
   transform: scale(0.98);
 }
 
-/* Inputs größer */
 input[type="radio"],
 input[type="checkbox"] {
   transform: scale(1.3);
@@ -90,4 +89,7 @@ button:active {
   max-width: 150px;
   border-radius: 12px;
   margin: 5px;
+}
+fieldset{
+ padding-left: 2%;
 }
