@@ -25,7 +25,7 @@ const quiz = [
     frage: "Wie haben sich Antje und Detlef kennengelernt?",
     typ: "radio",
     antworten: [
-      { text: "Auf einer Vereinsfahrt des Handballclubs ins Sauerland", value: "handball" },
+      { text: "Auf einer Vereinsfahrt des Handballvereins ins Sauerland", value: "handball" },
       { text: "Auf einer Klassenfahrt nach Lichtendorf", value: "klassenfahrt" },
       { text: "In der Bibliothek während des Studiums", value: "studium" }
     ],
